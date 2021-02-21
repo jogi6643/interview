@@ -1,0 +1,86 @@
+*******************************************************************************
+Q1.Obverser :-
+Ans:  if you are listening for  many event on a given Model.
+if you want use observer then group of all listner/Event in a Single class
+observer classess have method names 
+which reflect to Eloquent events wish you want to Listen
+php artisan make:observer UserObserver --model=User 
+Register in App\Providers\EventServiceProvider file on function boot
+**********************************************************************************
+Q2.Config Cache: Better Performance of Laravel Application
+available File In L8\bootstrap\config.php 
+php artisan config:cache
+***************************************************************************
+Q3.Eager Loading;-With the help of eager loding optimize the query 
+with the help of Eager Like $post = Post::with(['user','comments'])->get();
+***************************************************************************
+Q4.Entry Point of Laravel:
+Request Life Cycle:-
+Step1: Entry Point Public/Index.php and Index.php files loads
+composer generate autoloader  retrieve an instance of the laravel
+application from  bootstrap/app.php .the first action taken by server Container
+step2:Http and kernel console 
+step3. Service Providers available in config/app.php
+step4.Routing 
+step5.Countroller
+*******************************************************************************
+Q5.Reverse Routing:-
+it define the relationship between link and laravel Routes
+Route::get('abc','CountrollerName@abc');
+{{HTML::link_to_action(CountrollerName@abc)}}
+*********************************************************************************
+Q6.Facades:-
+Facades provide a static interface to classess that are available in the 
+application service Container
+Step1: Create any Where 
+App\PayemntGatwat\
+files. 1 Payment ->public static function process()
+       2 paymentFacdes ->protected static function getFacedesAccessor()
+step2: Create PaymentServiceProvider and Register 
+step3: config\app.php
+Providers
+aliases 
+***********************************************************************************
+Q7.Middleware:-
+it filter the Http Request
+configurataion App\Http\kernal.php
+1.Global Routes
+2.Assigening To Route
+3.group Routes
+***********************************************************************************
+Q8.Helper:- Helper is golbal function .we can create helper in any where in project 
+step:1helpers/filename.php
+step:2 composer.json -> autoload ->file path
+sttep:3 composer dump-autoload
+************************************************************************************
+Q9.Singleton:-
+1. Singleton pattern is used to create one object  of a class and provide 
+a global point of 
+access to it.Accessible to multiple clients
+Q10.Design Pattern:- Follow Opps
+************************************************************************************
+Q11.Queue:-With the help of Queue you may have some Task such as parsing and Storing
+an uploaded csv file thats take too long  to performing.
+step1 : config/Queue.php
+cmd1: php artisan queue:table
+cmd2:php artisan queue:failed-table
+cmd3:php artisan migrate // Reflect all table in database
+Create mailer
+php artisan queue:work
+php artisan make:mail RegisterUserMail --markdown emails.RegisterMail 
+Create a New job for huge emails
+php artisan make:job NewUserRegisterEmail
+Dispatch,Scheduler
+php artisan queue:work
+***********************************************************************************
+
+
+
+
+Q6.Passport:-
+Q5.ORM(Object Relation Mapping):-
+
+Q12.Entity framework:-
+
+
+
