@@ -1,6 +1,6 @@
 <?php
 /*
-What is abstract class
+What is abstract class:- abstract class is just like a class ,which contains only one abstract mrthod, members
 1. We can't create direct object
 2.Member and Method define in Abstract Class.
 3.Code Resuablity every extend Class
@@ -46,6 +46,23 @@ $contractEmp = new ContractEmployee("Contract Type","Employee");
 echo $contractEmp->getFullName();
 echo $contractEmp->getSalary();
 
+echo "</br>";
+echo "Example 2";
+
+
+abstract class parentClass{
+
+	abstract protected function cal();
+}
+class childChild extends parentClass{
+
+	public function cal(){
+		echo 'calculations ok';
+	}
+}
+
+$chi = new childChild();
+$chi->cal();
 
 ?>
 
