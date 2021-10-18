@@ -1,5 +1,5 @@
 <?php
-/*What is Interface
+/*What is Interface:- Interface just like a class ,which contains only abstract method
 1.can't Create a Object of Interface
 2.Work Like a Abstract Class
 3.Define Method But can't Implements 
