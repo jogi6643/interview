@@ -25,6 +25,9 @@ at runtime and compile time.
 ***************************************************************
 
 ****************************************************************
+get::route('login','usercontroller@login');
+Reverse Routing : Use Reverse routing we can create link to it.
+{{ HTML::link_to_action('usercontroller@login') }}
 */
 
 interface Database
