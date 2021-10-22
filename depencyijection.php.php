@@ -28,6 +28,44 @@ at runtime and compile time.
 get::route('login','usercontroller@login');
 Reverse Routing : Use Reverse routing we can create link to it.
 {{ HTML::link_to_action('usercontroller@login') }}
+
+
+Namespace:They allow the same name to be used for more than one class
+Second.php												First.php
+namespace second;										namespace first;
+class test{ 														class test{
+public function test_second(){							public function test_first() { 
+echo 'sencond class'}
+}																echo 'test_first';
+															}
+														}
+
+Call namespace;
+third.php
+
+required first.PHP
+required second.PHP
+$obj = new first\test();
+$obj->test_first();
+$obj1 = new second\test();
+$obj1->test_second();
+
+
+
+
+Middleware : filter the http request
+App\Http\Middlewaredirectory
+php artisan make:middleware middlewareName
+Registring a middleware
+App\Http\Kernel
+Type of middlewares
+1.Global Middleware
+2.Assigning middleware to route
+3.Grouping middleware
+
+Serialization: when we build an Api in laravel ,you need to convert model and reletionship to array format
+json format
+
 */
 
 interface Database

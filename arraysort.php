@@ -16,3 +16,9 @@ for ($i=0; $i <count($sort) ; $i++) {
 }
 
 print_r($sort);
+echo "<br/>";
+
+$arr1 = array('x','y','z');
+$arr2 = array('a','b','c');
+$arr_combine = array_combine($arr1,$arr2);
+print_r($arr_combine);
