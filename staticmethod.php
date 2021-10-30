@@ -1,6 +1,11 @@
 <?php
 /*
 What is Static Function
+The static keyword is used in the context of variables and methods that 
+are common to all the objects of the class. Therefore, 
+any logic which can be shared among multiple instances of a class should 
+be extracted and put inside the static method.
+
 1.Use Self keyword use in same class and Parent Keyword for another class
 2.Function Call Through className ScopeResolution functionName
 3.We can't Use this Keyword and but use only Self keyword 

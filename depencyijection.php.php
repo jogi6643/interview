@@ -68,10 +68,9 @@ json format
 
 
 
-Application Programming Interface (API) is a set of requirements,
- instructions, 
+Application Programming Interface (API) is a set of requirements,instructions, 
  and standards that allow an application to employ services or features of some other device, application, or platform for providing better services.
- 
+
 REST (Representational State Transfer) is a kind of architectural implementation for 
 improving communication between various applications. 
 It is based on the concept of making particular 
@@ -79,6 +78,19 @@ info obtainable only when requested via references,
 rather than an entire copy of the information. 
 World Wide Web happens to be an example of those systems which follow this architecture, 
 and these are known as RESTful systems.
+
+
+An API is an application programming interface. It is a set of rules that allow programs to talk to each other. The developer creates the API on the server and allows the client to talk to it.
+
+REST determines how the API looks like. It stands for “Representational State Transfer”.
+
+
+Laravel includes Eloquent, an object-relational mapper (ORM) 
+that makes it enjoyable to interact with your database.
+ When using Eloquent,each database table has a corresponding "Model" 
+ that is used to interact with that table. In addition to retrieving 
+ records from the database table, Eloquent models allow you to insert,
+  update, and delete records from the table as well.
 */
 
 interface Database

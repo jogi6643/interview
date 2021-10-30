@@ -66,6 +66,10 @@ $array = array(1,6,3,4,5);
 $newarray = array();
 $temp = 0;
 for ($i=1; $i <=count($array);$i++) {
-
+if($array[$i]>$array[$i+1])
+{
+    $temp = $array[$i];
+    $array[$j+]
+}
 
 }

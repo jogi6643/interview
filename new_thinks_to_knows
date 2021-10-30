@@ -1,0 +1,28 @@
+Agile software developed:Agile methodolgy adopt increamental developement.
+IN this developement users communicate with client then check and feedback 
+from thier side this is the process of agile methodolgy 
+
+traditional methodolgy: communication, plaining,modeling, construct and deployment (waterfall model)
+
+
+scrum: Scrum is a subset of Agile. It is a lightweight process framework 
+for agile development, and the most widely-used one.
+
+PHP Standard Recommendation (PSR)
+
+create command by two ways.
+
+1.php artisan make:command Hello
+2.By the console.php  
+
+
+
+Apache:
+1.Apache runs on all Unix like systems such as Linux, BSD, etc. as well as completely supports Windows.
+2.Apache cannot handle multiple requests concurrently with heavy web traffic.
+3.Apache is designed to be a web server.
+NGINX:
+1.Nginx runs on modern Unix like systems; however it has limited support for Windows.
+2.Nginx can handle multiple client requests concurrently and efficiently with limited hardware resources.
+3.Nginx is both a web server and a proxy server.
+
