@@ -61,3 +61,11 @@ for ($i=1; $i <=5; $i++) {
     }
     echo "<br/>";
 }
+
+$array = array(1,6,3,4,5);
+$newarray = array();
+$temp = 0;
+for ($i=1; $i <=count($array);$i++) {
+
+
+}

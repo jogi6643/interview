@@ -1,6 +1,6 @@
 <?php
 /*
-What is abstract class:- abstract class is just like a class ,which contains only one abstract mrthod, members
+What is abstract class:- abstract class is just like a class ,which contains only one abstract methods, members
 1. We can't create direct object
 2.Member and Method define in Abstract Class.
 3.Code Resuablity every extend Class
