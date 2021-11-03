@@ -1,0 +1,245 @@
+persmission directory
+
+chmod -R 0777 first_project
+chmod -R 0777 www
+
+
+https://www.bcci.tv/
+https://www.iplt20.com/
+
+
+new Project
+git init
+git remote add origin git clone https://jugendra66@bitbucket.org/sourabh_latestly/bcci-web-new.git
+git pull origin develop
+git branch
+git checkout -b develop
+git branch
+
+git pull origin develop
+composer update
+
+
+
+use mysql;
+SELECT user FROM mysql.user;
+mysql run in command
+sudo mysql -u root -p
+Password123#@!
+DESC user;
+SELECT user, host, account_locked, password_expired FROM user;
+CREATE USER 'blog_user3'@'localhost' IDENTIFIED BY 'PAs5w0rd#@!!';
+GRANT ALL PRIVILEGES ON new_username.* TO 'blog_user3'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'new_username'@'localhost';
+FLUSH PRIVILEGES;
+exit
+
+
+
+php artisan make:controller PromosController --resource
+php artisan make:controller MenuController --resource
+php artisan make:migration create_menus_table
+
+
+
+
+
+
+
+
+
+
+
+push code for barnch
+git pull origin jogiwork
+git status
+git branch
+git add app/Http/Controllers/PrivilegesUserController.php app/Models/Userroles.php routes/api.php
+git status
+git commit -m "Privilege"
+
+git push origin jogiwork
+
+
+
+
+
+Personal access client created successfully.
+Client ID: 3
+Client secret: MApX1c7G0HbeaibgBciAQioMxPQCEPHLOunlupRD
+Password grant client created successfully.
+Client ID: 4
+Client secret: FVnEOuRerPqaI63tOiOTAw9gtVXUeDDAWc0opZHI
+
+git add
+git commit -m ""
+git checkout master
+git pull origin master
+git checkout jugi
+git merge master
+git push origin jugi
+
+
+
+
+Merge master branch in
+merge command :
+currently working in jogiworkbranch
+git status
+git branch
+git commit "push kru change file ya checkout"
+git checkout master
+git pull origin master
+git checkout jogiwork
+git merge master
+git checkout jogiwork
+git add
+git commit -m "update response in controller"
+git push origin jogiwork
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan make:controller ImageControllercopy --resource
+php artisan make:request ImageRequest
+php artisan make:migration create_images_table
+php artisan make:model Image
+Route::resource('images',ImageController::class);
+
+
+
+php artisan make:migration add_user_status_to_users_table --table=users
+
+
+
+
+https://cms.platform.bcci.tv/
+search get content
+
+php artisan make:model Document
+
+
+
+git reset --hard
+php artisan make:controller DocumentsController --resource
+
+
+
+
+
+new branch complete merege
+git status
+On branch mongo-dipali
+Changes not staged for commit:
+(use "git add <file>..." to update what will be committed)
+(use "git restore <file>..." to discard changes in working directory)
+modified: app/Http/Controllers/DocumentsController.php
+modified: app/Http/Controllers/ImageController.php
+modified: composer.json
+modified: config/database.php
+Untracked files:
+(use "git add <file>..." to include in what will be committed)
+app/Models/AssetsCount.php
+app/Models/Document.php
+
+
+git add .
+git reset composer.json
+git commit -m "add mongo query"
+git checkout jogiwork
+git merge mongo-dipali
+
+
+
+[20/08, 5:57 pm] Dipali Pawshe: vinit.bagde@in10media.com
+[20/08, 6:02 pm] Vinit Bagde: Team@123
+
+
+{
+"video_count":0,
+"image_count":20,
+"playlist_count":0,
+"document_count":10,
+"ID":1
+}
+
+
+*************************************************BCCICMSUI***************************************
+git pull origin develop // morning
+git branch // show branch
+git status // Check how many file are change in local
+git pull origin develop // morning first time
+git add // add one by one file
+git commit -m "meassage"
+git push origin jogi_bcci // branch name
+branch is clean then checkout
+git checkout develop // switch to main branch
+git branch // which branch in active
+git pull origin develop // update code in server
+git merge jogi_bcci // merge code in develop branch
+git push origin develop // push the code in develop
+git checkout jogi_bcci // retun to own branch
+git branch // which branch in active
+*****************************************************************
+git status
+git branch
+git commit "push kru change file ya checkout"
+git checkout develop
+git pull origin develop
+git checkout jogi_bcci
+git merge develop
+git checkout jogi_bcci
+git add
+git commit -m "update response in controller"
+git push origin jogi_bcci
+
+http://dev.bccicms.epicon.in/dashboard
+kunal.pawshe@in10media.com
+dipali12
+Zira
+aaditya.dikshit@in10media.com
+aad29061710
+
+
+git branch
+jogi_bcci
+git add .. files
+git commit
+git pull origin develop
+git push origin jogi_bcci
+git checkout develop
+git pull origin develop
+git merge jogi_bcci
+git push origin develop
+
+
+
+Pulse live
+BCCI@12345
+bhushan.j.shetty
+https://cms.platform.bcci.tv/content/articles/edit/155082/en
+
+
+
+
+modified: app/Http/Controllers/DocumentsController.php
+modified: app/Http/Controllers/PromosController.php
+modified: resources/views/content/documents.blade.php
+modified: resources/views/content/edit-document.blade.php
+modified: resources/views/content/promos.blade.php
+
+
+
+
+
